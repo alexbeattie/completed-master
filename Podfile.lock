@@ -1,0 +1,22 @@
+PODS:
+  - LBTATools (1.0.12)
+  - SDWebImage (5.15.7):
+    - SDWebImage/Core (= 5.15.7)
+  - SDWebImage/Core (5.15.7)
+
+DEPENDENCIES:
+  - LBTATools
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - LBTATools
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  LBTATools: 389a901a01b9a56bea5682c40cd6e23530f40015
+  SDWebImage: 25bac438318faf37e35650619ebc288a9061d292
+
+PODFILE CHECKSUM: a48aaf8d93056270750c0233d2ac2d5ac8c20b34
+
+COCOAPODS: 1.12.1
