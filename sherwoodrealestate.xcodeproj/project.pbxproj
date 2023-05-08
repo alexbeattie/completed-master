@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014F16796C60D1B96C6CB467 /* Pods_sherwoodrealestate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814EDA08F96BF7AE0568886F /* Pods_sherwoodrealestate.framework */; };
+		781FAB2C20B36DAF00E13855 /* ListingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB2B20B36DAF00E13855 /* ListingDetailController.swift */; };
+		781FAB2E20B36E8700E13855 /* ListingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB2D20B36E8700E13855 /* ListingSlides.swift */; };
+		781FAB3220B3706100E13855 /* ListingAnno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB3120B3706100E13855 /* ListingAnno.swift */; };
+		781FAB3720B5F37E00E13855 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FAB3620B5F37E00E13855 /* Constants.swift */; };
+		7827C355239DCEBD007395DA /* SoldListingsHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827C354239DCEBD007395DA /* SoldListingsHomeController.swift */; };
+		7827C357239DCF01007395DA /* MapOfSoldListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827C356239DCF01007395DA /* MapOfSoldListings.swift */; };
+		7827C359239DCFC9007395DA /* SoldListingInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827C358239DCFC9007395DA /* SoldListingInfoCell.swift */; };
+		7827C35D239DE1C3007395DA /* SoldListingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827C35C239DE1C3007395DA /* SoldListingDetailController.swift */; };
+		7827C35F239DE26B007395DA /* SoldListingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827C35E239DE26B007395DA /* SoldListingSlides.swift */; };
+		78302AB2228898FE00964A95 /* ListingInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78302AB1228898FE00964A95 /* ListingInfoCell.swift */; };
+		78302AB4228A1C1C00964A95 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78302AB3228A1C1C00964A95 /* Functions.swift */; };
+		783743CE23C3FF54004E1953 /* SoldLoadingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783743CD23C3FF54004E1953 /* SoldLoadingFooter.swift */; };
+		7845792823CB890A005FB0BF /* ActiveListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845792723CB890A005FB0BF /* ActiveListings.swift */; };
+		786F084523D8FC9C008D6AB1 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 786F084423D8FC9C008D6AB1 /* LaunchScreen.png */; };
+		7870237C23D790F900A3F462 /* SoldListingsAnno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870237B23D790F900A3F462 /* SoldListingsAnno.swift */; };
+		7870784E23E651E100D64E86 /* CustomFields-Original.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7870784D23E651E100D64E86 /* CustomFields-Original.swift */; };
+		787B8A1D23CD1547007A30FF /* SoldLocationsCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B8A1C23CD1547007A30FF /* SoldLocationsCarousel.swift */; };
+		7888D6CF22874E06004CE914 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888D6CE22874E06004CE914 /* BaseTabBarController.swift */; };
+		7888D6D1228750CD004CE914 /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888D6D0228750CD004CE914 /* BaseListController.swift */; };
+		7888D6D72287563C004CE914 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888D6D32287563B004CE914 /* Extensions.swift */; };
+		7888D6D82287563C004CE914 /* BetterSnappingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888D6D42287563B004CE914 /* BetterSnappingLayout.swift */; };
+		7888D6D92287563C004CE914 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888D6D52287563C004CE914 /* VerticalStackView.swift */; };
+		788FD2A323C917AA00C7946B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FD2A123C917AA00C7946B /* ContentView.swift */; };
+		788FD2A423C917AA00C7946B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FD2A223C917AA00C7946B /* SceneDelegate.swift */; };
+		788FD2A623C9186600C7946B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788FD2A523C9186500C7946B /* Main.storyboard */; };
+		788FD2A823C91D0100C7946B /* LocationsCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788FD2A723C91D0100C7946B /* LocationsCarouselViewController.swift */; };
+		7890A63520B353C20090E0A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7890A63420B353C20090E0A2 /* AppDelegate.swift */; };
+		7890A63720B353C20090E0A2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7890A63620B353C20090E0A2 /* HomeController.swift */; };
+		7890A63C20B353C20090E0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7890A63B20B353C20090E0A2 /* Assets.xcassets */; };
+		7890A63F20B353C20090E0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7890A63D20B353C20090E0A2 /* LaunchScreen.storyboard */; };
+		7890A64A20B354230090E0A2 /* SoldListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7890A64920B354230090E0A2 /* SoldListings.swift */; };
+		78A900ED23F4A2DD00BE67CA /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A900EC23F4A2DD00BE67CA /* TeamModel.swift */; };
+		78A9013E23F5E19600BE67CA /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9013D23F5E19600BE67CA /* TeamViewController.swift */; };
+		78A9014323F5E33800BE67CA /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014023F5E33800BE67CA /* SettingCell.swift */; };
+		78A9014423F5E33800BE67CA /* SettingName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014123F5E33800BE67CA /* SettingName.swift */; };
+		78A9014523F5E33800BE67CA /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014223F5E33800BE67CA /* SettingsLauncher.swift */; };
+		78A9014723F5F4A500BE67CA /* Disclaimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014623F5F4A500BE67CA /* Disclaimer.swift */; };
+		78A9014B23F61FD000BE67CA /* TosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014A23F61FD000BE67CA /* TosCell.swift */; };
+		78A9014D23F621DD00BE67CA /* DisclaimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014C23F621DD00BE67CA /* DisclaimerModel.swift */; };
+		78A9014F23F8776800BE67CA /* TosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9014E23F8776800BE67CA /* TosService.swift */; };
+		78A9015123F8AAFD00BE67CA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9015023F8AAFD00BE67CA /* WebViewController.swift */; };
+		78A9015323F8AD5200BE67CA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9015223F8AD5200BE67CA /* Contact.swift */; };
+		78A9015923FC35FE00BE67CA /* DisclaimerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9015823FC35FE00BE67CA /* DisclaimerHeader.swift */; };
+		78A9015B23FC360D00BE67CA /* DisclaimerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9015A23FC360D00BE67CA /* DisclaimerFooter.swift */; };
+		78C7FF9E23970E67002E7E57 /* MapOfListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C7FF9D23970E67002E7E57 /* MapOfListings.swift */; };
+		78D09C1923A81D8800528024 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D09C1823A81D8800528024 /* Cache.swift */; };
+		78F39D43228E43D700371DAB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F39D42228E43D700371DAB /* Service.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		781FAB2B20B36DAF00E13855 /* ListingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailController.swift; sourceTree = "<group>"; };
+		781FAB2D20B36E8700E13855 /* ListingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingSlides.swift; sourceTree = "<group>"; };
+		781FAB3120B3706100E13855 /* ListingAnno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingAnno.swift; sourceTree = "<group>"; };
+		781FAB3620B5F37E00E13855 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7827C354239DCEBD007395DA /* SoldListingsHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingsHomeController.swift; sourceTree = "<group>"; };
+		7827C356239DCF01007395DA /* MapOfSoldListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfSoldListings.swift; sourceTree = "<group>"; };
+		7827C358239DCFC9007395DA /* SoldListingInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingInfoCell.swift; sourceTree = "<group>"; };
+		7827C35C239DE1C3007395DA /* SoldListingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingDetailController.swift; sourceTree = "<group>"; };
+		7827C35E239DE26B007395DA /* SoldListingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingSlides.swift; sourceTree = "<group>"; };
+		78302AB1228898FE00964A95 /* ListingInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInfoCell.swift; sourceTree = "<group>"; };
+		78302AB3228A1C1C00964A95 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		783743CC23C3B974004E1953 /* Sherwood Real Estate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sherwood Real Estate.entitlements"; sourceTree = "<group>"; };
+		783743CD23C3FF54004E1953 /* SoldLoadingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldLoadingFooter.swift; sourceTree = "<group>"; };
+		7845792723CB890A005FB0BF /* ActiveListings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveListings.swift; sourceTree = "<group>"; };
+		786F084423D8FC9C008D6AB1 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		7870237B23D790F900A3F462 /* SoldListingsAnno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListingsAnno.swift; sourceTree = "<group>"; };
+		7870784D23E651E100D64E86 /* CustomFields-Original.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomFields-Original.swift"; sourceTree = "<group>"; };
+		787B8A1C23CD1547007A30FF /* SoldLocationsCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldLocationsCarousel.swift; sourceTree = "<group>"; };
+		7888D6CE22874E06004CE914 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		7888D6D0228750CD004CE914 /* BaseListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
+		7888D6D32287563B004CE914 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7888D6D42287563B004CE914 /* BetterSnappingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterSnappingLayout.swift; sourceTree = "<group>"; };
+		7888D6D52287563C004CE914 /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		788FD2A123C917AA00C7946B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		788FD2A223C917AA00C7946B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		788FD2A523C9186500C7946B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		788FD2A723C91D0100C7946B /* LocationsCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsCarouselViewController.swift; sourceTree = "<group>"; };
+		7890A63120B353C20090E0A2 /* Sherwood Real Estate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sherwood Real Estate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7890A63420B353C20090E0A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7890A63620B353C20090E0A2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7890A63B20B353C20090E0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7890A63E20B353C20090E0A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7890A64020B353C20090E0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7890A64620B353E20090E0A2 /* sherwoodrealestate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sherwoodrealestate-Bridging-Header.h"; sourceTree = "<group>"; };
+		7890A64920B354230090E0A2 /* SoldListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldListings.swift; sourceTree = "<group>"; };
+		78A900EC23F4A2DD00BE67CA /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		78A9013D23F5E19600BE67CA /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		78A9014023F5E33800BE67CA /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		78A9014123F5E33800BE67CA /* SettingName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingName.swift; sourceTree = "<group>"; };
+		78A9014223F5E33800BE67CA /* SettingsLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
+		78A9014623F5F4A500BE67CA /* Disclaimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disclaimer.swift; sourceTree = "<group>"; };
+		78A9014A23F61FD000BE67CA /* TosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TosCell.swift; sourceTree = "<group>"; };
+		78A9014C23F621DD00BE67CA /* DisclaimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerModel.swift; sourceTree = "<group>"; };
+		78A9014E23F8776800BE67CA /* TosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TosService.swift; sourceTree = "<group>"; };
+		78A9015023F8AAFD00BE67CA /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		78A9015223F8AD5200BE67CA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		78A9015823FC35FE00BE67CA /* DisclaimerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerHeader.swift; sourceTree = "<group>"; };
+		78A9015A23FC360D00BE67CA /* DisclaimerFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerFooter.swift; sourceTree = "<group>"; };
+		78C7FF9D23970E67002E7E57 /* MapOfListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfListings.swift; sourceTree = "<group>"; };
+		78D09C1823A81D8800528024 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		78F39D42228E43D700371DAB /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7F32C1D99B01043D1EC22579 /* Pods-sherwoodrealestate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sherwoodrealestate.release.xcconfig"; path = "Target Support Files/Pods-sherwoodrealestate/Pods-sherwoodrealestate.release.xcconfig"; sourceTree = "<group>"; };
+		814EDA08F96BF7AE0568886F /* Pods_sherwoodrealestate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sherwoodrealestate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34523761EECD8C816042746 /* Pods-sherwoodrealestate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sherwoodrealestate.debug.xcconfig"; path = "Target Support Files/Pods-sherwoodrealestate/Pods-sherwoodrealestate.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7890A62E20B353C20090E0A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014F16796C60D1B96C6CB467 /* Pods_sherwoodrealestate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595A6E6D998444BA93691B44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D34523761EECD8C816042746 /* Pods-sherwoodrealestate.debug.xcconfig */,
+				7F32C1D99B01043D1EC22579 /* Pods-sherwoodrealestate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7827C353239DCE08007395DA /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				7890A63620B353C20090E0A2 /* HomeController.swift */,
+				781FAB2B20B36DAF00E13855 /* ListingDetailController.swift */,
+				78302AB1228898FE00964A95 /* ListingInfoCell.swift */,
+				781FAB2D20B36E8700E13855 /* ListingSlides.swift */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		7827C360239EAAE6007395DA /* SoldListingsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7827C358239DCFC9007395DA /* SoldListingInfoCell.swift */,
+				7827C354239DCEBD007395DA /* SoldListingsHomeController.swift */,
+				7827C35C239DE1C3007395DA /* SoldListingDetailController.swift */,
+				7827C35E239DE26B007395DA /* SoldListingSlides.swift */,
+				783743CD23C3FF54004E1953 /* SoldLoadingFooter.swift */,
+			);
+			path = SoldListingsGroup;
+			sourceTree = "<group>";
+		};
+		7870237F23D7955600A3F462 /* SoldListingsMap */ = {
+			isa = PBXGroup;
+			children = (
+				787B8A1C23CD1547007A30FF /* SoldLocationsCarousel.swift */,
+				7827C356239DCF01007395DA /* MapOfSoldListings.swift */,
+				7870237B23D790F900A3F462 /* SoldListingsAnno.swift */,
+			);
+			path = SoldListingsMap;
+			sourceTree = "<group>";
+		};
+		7888D6D22287562C004CE914 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				788FD2A223C917AA00C7946B /* SceneDelegate.swift */,
+				788FD2A123C917AA00C7946B /* ContentView.swift */,
+				7888D6D42287563B004CE914 /* BetterSnappingLayout.swift */,
+				7888D6D32287563B004CE914 /* Extensions.swift */,
+				7888D6D52287563C004CE914 /* VerticalStackView.swift */,
+				78302AB3228A1C1C00964A95 /* Functions.swift */,
+				78D09C1823A81D8800528024 /* Cache.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7890A62820B353C20090E0A2 = {
+			isa = PBXGroup;
+			children = (
+				7890A63320B353C20090E0A2 /* sherwoodrealestate */,
+				7890A63220B353C20090E0A2 /* Products */,
+				595A6E6D998444BA93691B44 /* Pods */,
+				EBA8C695ED78963277755921 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7890A63220B353C20090E0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7890A63120B353C20090E0A2 /* Sherwood Real Estate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7890A63320B353C20090E0A2 /* sherwoodrealestate */ = {
+			isa = PBXGroup;
+			children = (
+				783743CC23C3B974004E1953 /* Sherwood Real Estate.entitlements */,
+				78F39D42228E43D700371DAB /* Service.swift */,
+				78A9014E23F8776800BE67CA /* TosService.swift */,
+				786F084423D8FC9C008D6AB1 /* LaunchScreen.png */,
+				78A9013F23F5E32400BE67CA /* SettingsLaunch */,
+				78A9013B23F5E14600BE67CA /* About */,
+				78F39D48228E525600371DAB /* Models */,
+				7888D6D22287562C004CE914 /* Helpers */,
+				7890A63420B353C20090E0A2 /* AppDelegate.swift */,
+				78C7FF9F23970F0F002E7E57 /* ActiveListingsMap */,
+				7827C360239EAAE6007395DA /* SoldListingsGroup */,
+				7870237F23D7955600A3F462 /* SoldListingsMap */,
+				7827C353239DCE08007395DA /* Listings */,
+				7890A63B20B353C20090E0A2 /* Assets.xcassets */,
+				788FD2A523C9186500C7946B /* Main.storyboard */,
+				7890A63D20B353C20090E0A2 /* LaunchScreen.storyboard */,
+				7888D6D0228750CD004CE914 /* BaseListController.swift */,
+				7890A64020B353C20090E0A2 /* Info.plist */,
+				7890A64620B353E20090E0A2 /* sherwoodrealestate-Bridging-Header.h */,
+				781FAB3620B5F37E00E13855 /* Constants.swift */,
+				7888D6CE22874E06004CE914 /* BaseTabBarController.swift */,
+			);
+			path = sherwoodrealestate;
+			sourceTree = "<group>";
+		};
+		78A9013B23F5E14600BE67CA /* About */ = {
+			isa = PBXGroup;
+			children = (
+				78A9013D23F5E19600BE67CA /* TeamViewController.swift */,
+				78A9014623F5F4A500BE67CA /* Disclaimer.swift */,
+				78A9015823FC35FE00BE67CA /* DisclaimerHeader.swift */,
+				78A9015A23FC360D00BE67CA /* DisclaimerFooter.swift */,
+				78A9014A23F61FD000BE67CA /* TosCell.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		78A9013F23F5E32400BE67CA /* SettingsLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				78A9014023F5E33800BE67CA /* SettingCell.swift */,
+				78A9014123F5E33800BE67CA /* SettingName.swift */,
+				78A9015223F8AD5200BE67CA /* Contact.swift */,
+				78A9014223F5E33800BE67CA /* SettingsLauncher.swift */,
+				78A9015023F8AAFD00BE67CA /* WebViewController.swift */,
+			);
+			path = SettingsLaunch;
+			sourceTree = "<group>";
+		};
+		78C7FF9F23970F0F002E7E57 /* ActiveListingsMap */ = {
+			isa = PBXGroup;
+			children = (
+				788FD2A723C91D0100C7946B /* LocationsCarouselViewController.swift */,
+				781FAB3120B3706100E13855 /* ListingAnno.swift */,
+				78C7FF9D23970E67002E7E57 /* MapOfListings.swift */,
+			);
+			path = ActiveListingsMap;
+			sourceTree = "<group>";
+		};
+		78F39D48228E525600371DAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7870784D23E651E100D64E86 /* CustomFields-Original.swift */,
+				7845792723CB890A005FB0BF /* ActiveListings.swift */,
+				7890A64920B354230090E0A2 /* SoldListings.swift */,
+				78A900EC23F4A2DD00BE67CA /* TeamModel.swift */,
+				78A9014C23F621DD00BE67CA /* DisclaimerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBA8C695ED78963277755921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814EDA08F96BF7AE0568886F /* Pods_sherwoodrealestate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7890A63020B353C20090E0A2 /* sherwoodrealestate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7890A64320B353C20090E0A2 /* Build configuration list for PBXNativeTarget "sherwoodrealestate" */;
+			buildPhases = (
+				200465F84D0FBC4151389A2B /* [CP] Check Pods Manifest.lock */,
+				7890A62D20B353C20090E0A2 /* Sources */,
+				7890A62E20B353C20090E0A2 /* Frameworks */,
+				7890A62F20B353C20090E0A2 /* Resources */,
+				171F62714DF6B1BF6E7B6B9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sherwoodrealestate;
+			productName = sherwoodrealestate;
+			productReference = 7890A63120B353C20090E0A2 /* Sherwood Real Estate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7890A62920B353C20090E0A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alex Beattie";
+				TargetAttributes = {
+					7890A63020B353C20090E0A2 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7890A62C20B353C20090E0A2 /* Build configuration list for PBXProject "sherwoodrealestate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7890A62820B353C20090E0A2;
+			productRefGroup = 7890A63220B353C20090E0A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7890A63020B353C20090E0A2 /* sherwoodrealestate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7890A62F20B353C20090E0A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788FD2A623C9186600C7946B /* Main.storyboard in Resources */,
+				7890A63F20B353C20090E0A2 /* LaunchScreen.storyboard in Resources */,
+				786F084523D8FC9C008D6AB1 /* LaunchScreen.png in Resources */,
+				7890A63C20B353C20090E0A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171F62714DF6B1BF6E7B6B9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sherwoodrealestate/Pods-sherwoodrealestate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTATools/LBTATools.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTATools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sherwoodrealestate/Pods-sherwoodrealestate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		200465F84D0FBC4151389A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sherwoodrealestate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7890A62D20B353C20090E0A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A9014B23F61FD000BE67CA /* TosCell.swift in Sources */,
+				7888D6CF22874E06004CE914 /* BaseTabBarController.swift in Sources */,
+				78A9014723F5F4A500BE67CA /* Disclaimer.swift in Sources */,
+				7890A63720B353C20090E0A2 /* HomeController.swift in Sources */,
+				781FAB2C20B36DAF00E13855 /* ListingDetailController.swift in Sources */,
+				78A9013E23F5E19600BE67CA /* TeamViewController.swift in Sources */,
+				787B8A1D23CD1547007A30FF /* SoldLocationsCarousel.swift in Sources */,
+				7890A64A20B354230090E0A2 /* SoldListings.swift in Sources */,
+				7888D6D1228750CD004CE914 /* BaseListController.swift in Sources */,
+				78D09C1923A81D8800528024 /* Cache.swift in Sources */,
+				788FD2A823C91D0100C7946B /* LocationsCarouselViewController.swift in Sources */,
+				788FD2A423C917AA00C7946B /* SceneDelegate.swift in Sources */,
+				7827C359239DCFC9007395DA /* SoldListingInfoCell.swift in Sources */,
+				7888D6D72287563C004CE914 /* Extensions.swift in Sources */,
+				781FAB2E20B36E8700E13855 /* ListingSlides.swift in Sources */,
+				78A9015B23FC360D00BE67CA /* DisclaimerFooter.swift in Sources */,
+				7827C35F239DE26B007395DA /* SoldListingSlides.swift in Sources */,
+				78A9015323F8AD5200BE67CA /* Contact.swift in Sources */,
+				7888D6D82287563C004CE914 /* BetterSnappingLayout.swift in Sources */,
+				781FAB3220B3706100E13855 /* ListingAnno.swift in Sources */,
+				7890A63520B353C20090E0A2 /* AppDelegate.swift in Sources */,
+				78A9014323F5E33800BE67CA /* SettingCell.swift in Sources */,
+				781FAB3720B5F37E00E13855 /* Constants.swift in Sources */,
+				78C7FF9E23970E67002E7E57 /* MapOfListings.swift in Sources */,
+				7888D6D92287563C004CE914 /* VerticalStackView.swift in Sources */,
+				78A9015123F8AAFD00BE67CA /* WebViewController.swift in Sources */,
+				78A9014D23F621DD00BE67CA /* DisclaimerModel.swift in Sources */,
+				7827C35D239DE1C3007395DA /* SoldListingDetailController.swift in Sources */,
+				7827C357239DCF01007395DA /* MapOfSoldListings.swift in Sources */,
+				7870784E23E651E100D64E86 /* CustomFields-Original.swift in Sources */,
+				783743CE23C3FF54004E1953 /* SoldLoadingFooter.swift in Sources */,
+				788FD2A323C917AA00C7946B /* ContentView.swift in Sources */,
+				7827C355239DCEBD007395DA /* SoldListingsHomeController.swift in Sources */,
+				7845792823CB890A005FB0BF /* ActiveListings.swift in Sources */,
+				78A9014F23F8776800BE67CA /* TosService.swift in Sources */,
+				78302AB4228A1C1C00964A95 /* Functions.swift in Sources */,
+				7870237C23D790F900A3F462 /* SoldListingsAnno.swift in Sources */,
+				78A900ED23F4A2DD00BE67CA /* TeamModel.swift in Sources */,
+				78A9015923FC35FE00BE67CA /* DisclaimerHeader.swift in Sources */,
+				78F39D43228E43D700371DAB /* Service.swift in Sources */,
+				78302AB2228898FE00964A95 /* ListingInfoCell.swift in Sources */,
+				78A9014523F5E33800BE67CA /* SettingsLauncher.swift in Sources */,
+				78A9014423F5E33800BE67CA /* SettingName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7890A63D20B353C20090E0A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7890A63E20B353C20090E0A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7890A64120B353C20090E0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7890A64220B353C20090E0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = com.artisanbranding.sherwoodrealestate;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7890A64420B353C20090E0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34523761EECD8C816042746 /* Pods-sherwoodrealestate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "sherwoodrealestate/Sherwood Real Estate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LR4SP9C264;
+				INFOPLIST_FILE = sherwoodrealestate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artisanbranding.sherwoodrealestate;
+				PRODUCT_NAME = "Sherwood Real Estate";
+				SWIFT_OBJC_BRIDGING_HEADER = "sherwoodrealestate/sherwoodrealestate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7890A64520B353C20090E0A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F32C1D99B01043D1EC22579 /* Pods-sherwoodrealestate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SAppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "sherwoodrealestate/Sherwood Real Estate.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LR4SP9C264;
+				INFOPLIST_FILE = sherwoodrealestate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artisanbranding.sherwoodrealestate;
+				PRODUCT_NAME = "Sherwood Real Estate";
+				SWIFT_OBJC_BRIDGING_HEADER = "sherwoodrealestate/sherwoodrealestate-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7890A62C20B353C20090E0A2 /* Build configuration list for PBXProject "sherwoodrealestate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7890A64120B353C20090E0A2 /* Debug */,
+				7890A64220B353C20090E0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7890A64320B353C20090E0A2 /* Build configuration list for PBXNativeTarget "sherwoodrealestate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7890A64420B353C20090E0A2 /* Debug */,
+				7890A64520B353C20090E0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7890A62920B353C20090E0A2 /* Project object */;
+}
