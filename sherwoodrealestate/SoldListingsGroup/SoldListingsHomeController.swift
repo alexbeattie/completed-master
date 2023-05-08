@@ -22,19 +22,21 @@ class SoldListingsHomeController: BaseListController, UICollectionViewDelegateFl
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        activityIndicatorBegin()
         collectionView.backgroundColor = .white
 
-        SoldListings.fetchListing { (listings) in
-            self.listings = listings.D.Results
-            self.collectionView?.reloadData()
-        }
-    
+     
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-                        self.activityIndicatorEnd()
+        activityIndicatorBegin()
+        SoldListings.fetchListing { (listings) in
+            self.listings = listings.D.Results
+            self.collectionView?.reloadData()
+            self.activityIndicatorEnd()
+
+        }
+    
         navigationController?.navigationBar.isTranslucent = true
         if #available(iOS 13.0, *) {
             navigationController?.navigationBar.compactAppearance = .none
